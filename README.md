@@ -22,9 +22,7 @@ pip install pandas python-docx openpyxl
 Usage
 Clone the repository:
 
-bash
-Copy
-Edit
+
 git clone https://github.com/<your-username>/email-extractor.git
 cd email-extractor
 Run the script:
