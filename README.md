@@ -1,3 +1,4 @@
+
 # Email Extractor
 
 A Python-based tool with a graphical interface (GUI) to extract email addresses from files and directories. The tool supports multiple file types and includes filters for specific email domains.
@@ -16,5 +17,27 @@ A Python-based tool with a graphical interface (GUI) to extract email addresses 
   - `openpyxl`
 
 Install dependencies using:
-```bash
+```
 pip install pandas python-docx openpyxl
+Usage
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/<your-username>/email-extractor.git
+cd email-extractor
+Run the script:
+
+
+python email_extractor.py
+Use the GUI to:
+
+Select a directory or file to scan.
+Specify email domain filters (optional).
+Save the extracted emails to a file.
+Supported File Types
+.txt, .csv, .sql: Text-based files.
+.xlsx, .xls: Excel spreadsheets.
+.docx: Microsoft Word documents.
+.zip: Compressed archives containing .csv files named "valid.csv".
